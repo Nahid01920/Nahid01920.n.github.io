@@ -1,0 +1,930 @@
+/* ========== default css ======= */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #494949;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+img{
+    width:100%;
+    height: auto;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #494949;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: #111;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+.divider {
+    border-top: 3px solid #FF0033;
+    max-width: 15%;
+    margin: 0 auto;
+	margin-top:30px;
+	margin-bottom:60px;
+}
+/* ========= end of the default css ======== */
+/* ========== slider area css ======= */
+.owl-carousel{
+    position: relative;
+}
+
+button.owl-prev {
+    position: absolute;
+    top: 45%;
+    left: 3%;
+}
+i.fa.fa-chevron-left {
+    background: #789500;
+    padding: 10px 13px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+i.fa.fa-chevron-right{
+    background: #789500;
+    padding: 10px 13px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+button.owl-next {
+    position: absolute;
+    top: 45%;
+    right:  3%;
+}
+
+ .owl-theme .owl-nav [class*=owl-]:hover{
+    background: #789500;
+    padding: 10px 13px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+}
+.items_1{
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+ .caption {
+    max-width: 1200;
+    height: auto;
+    padding: 150px 0px;
+    margin: 0 auto;
+    text-align: center;
+    animation-duration: 4s;
+}
+
+.caption h3 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0px 0px 13px;
+    padding: 0px;
+    line-height: 92px;
+    left: 0;
+    top: 152px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    
+}
+.orange {
+    color: #ff0033;
+}
+.caption p {
+    color: #fff;
+    line-height: 19px;
+    top: 290px;
+    left: 0;
+    margin: 0px 0px 50px;
+    font-size: 16px;
+}
+
+.btn-radius2 {
+    border-radius: 50px;
+	 background: rgba(255, 0, 51, .7);
+	color:#fff;
+	padding:16px 37px;
+	left: 145px; 
+	top:450px;
+}
+a.btn-radius2:hover
+{
+	color:#fff;
+	background: rgba(255, 0, 51, 1);
+}
+.btn-radius1 {
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    padding: 16px 37px;
+    border: 2px solid #ff0033;
+    left: 365px;
+    top: 450px;
+}
+
+/* ========= end of the slider area css ======== */
+
+/* =========== education_pro css ========== */
+
+h2.ed-3.text-uppercase {
+    text-align: center;
+    margin-top: 10px;
+    color: #111;
+    font-size: 1.5rem;
+}
+.ed-3 {
+    margin-bottom: 1rem !important;
+}
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+  
+.media-body {
+flex: 1;
+}
+.box-shadow1 {
+    -webkit-box-shadow: 0px 7px 30px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 7px 30px 0px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.18);
+}
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+.p-4 {
+    padding: 1rem !important;
+} 
+.mr-2 {
+    margin-right: 0.5rem !important;
+}
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    font-size: 25px;
+    color: #444;
+} 
+.main_education_pro{
+    margin-top: 25px;
+}
+.section_title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.section_title p {
+    color: #111;
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+/* ==========end of the education_pro css ======== */
+
+/* ========== counter area css ======= */
+.stat{
+	padding:50px 0px;
+}
+.counter_area{
+    margin-top: 50px;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.stat-items h2 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 20px 0px;
+}
+.stat-items p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+}
+span.icon_c {
+    color: #fff;
+    font-size: 22px;
+    line-height: 30px;
+}
+/* ========= end of the counter_area css ======== */
+
+/* =========== course_area css ========== */
+
+.our_courses {
+    margin-top: 50px;
+}
+
+/* ==========end of the course_area css ======== */
+
+/* =========== cleint_area css ========== */
+.cleint_area{
+    padding: 50px 0px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+ 
+}
+.ed-4{
+    color: #fff !important;
+}
+.client_text {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.cleint-caption{
+    background: #fff;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 25px 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.section_title p {
+    
+    line-height: 26px;
+    font-size: 16px;
+}
+.client_text p{
+    color: #111;
+    padding: 25px 0px;
+    line-height: 26px;
+    word-spacing: 1px;
+    font-size: 16px;
+    justify-content: center;
+}
+.client_text h4{
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 0px 10px;
+}
+.client_img img {
+    max-width: 35%;
+    margin: 0 auto;
+    padding: 20px 20px;
+    border-radius: 40%;
+    background: #111;
+    opacity: 0.8;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+/* ==========end of the cleint_area css ======== */
+
+/* =========== our_teachers_ css ========== */
+.box-border {
+    border:1px solid rgba(0, 0, 0, 0.125);
+    margin: 5px 0px;
+}
+.teacher_text,.team-social{
+    padding: 10px 10px;
+}
+.social_icon ul{
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+}
+.social_icon ul li{
+list-style: none;
+display: inline-block;
+}
+.social_icon ul li a:not(:last-child) {
+    margin-right: 5px;
+}
+.social_icon ul li i.fa.fa-facebook {
+    font-size: 18px;
+    color: #fff;
+    background: #3b5998;
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+.social_icon ul li i.fa.fa-twitter {
+    font-size: 18px;
+    color: #fff;
+    background: #00aced;
+    padding: 9px 10px;
+    border-radius: 50%;
+}
+.social_icon ul li i.fa.fa-instagram {
+    font-size: 18px;
+    color: #fff;
+    background: #e4405f;
+    padding: 9px 10px;
+    border-radius: 50%;
+}
+.rounded {
+    border-radius: 0.25rem !important;
+    -webkit-border-radius: 0.25rem !important;
+    -moz-border-radius: 0.25rem !important;
+    -ms-border-radius: 0.25rem !important;
+    -o-border-radius: 0.25rem !important;
+}
+/* ==========end of the our_teachers_css ======== */
+
+
+/* =========== applications css ========== */
+.applicatin_text h1 {
+    color: #fff ;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 27px;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+.applications_area{
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+    margin-top: 50px;
+}
+.applicatin_text p {
+    color: #fff;
+    padding: 25px;
+    line-height: 35px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+span.txt_3 {
+    font-weight: bold;
+}
+/* ==========end of the applications css ======== */
+
+
+/* =========== news-area css ========== */
+.img_cources{
+    position: relative;
+    overflow: hidden;
+}
+.img_cources img{
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 98%;
+    top: -100%;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+.overlay_icon{
+    position: absolute;
+    left: 33%;
+    bottom: -100%;
+    transition:0.6s ;
+    -webkit-transition:0.6s ;
+    -moz-transition:0.6s ;
+    -ms-transition:0.6s ;
+    -o-transition:0.6s ;
+}
+.img_cources:hover .overlay_icon{
+    bottom: 40%;
+}
+.overlay_icon i:hover{
+    background: #87d37c;
+    border: 1px solid #87d37c;
+}
+.overlay_icon i{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    color:#fff;
+    text-align: center;
+}
+.img_cources:hover .overlay{
+    top: 0;
+}
+.news_text h3{
+    color: #111;
+}
+.news_text p span{
+    padding: 25px 0px;
+    font-size: 14px;
+}
+.btn-radius3 {
+    border-radius: 50px;
+    background: rgba(255, 0, 51, .7);
+    color: #fff;
+    padding: 6px 17px;
+    left: 145px;
+    font-weight: normal;
+    top: 450px;
+}
+.full_news{
+    padding: 20px 10px;
+}
+/* ==========end of the news-area  css ======== */
+
+/* =========== footer css ========== */
+.footer {
+    background: rgba(9, 26, 46, .8);
+    color: #fff;
+    margin-top: 50px;
+    padding: 50px 0;
+    padding-bottom: 30px;
+}
+.about_social_icon ul{
+    display: block;
+    list-style-type: disc;
+}
+.about_social_icon ul li{
+list-style: none;
+display: inline-block;
+padding: 5px 10px;
+}
+.about_social_icon ul li a i{
+    color:#fff;
+    font-size: 21px;
+}
+.about_text h3 {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 25px 0px;
+    letter-spacing: 1px;
+}
+
+.about_text p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    word-spacing: 1px;
+}
+
+.about_icon h4 {
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 0px;
+}
+.recent_text h3 {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 25px 0px;
+    letter-spacing: 1px;
+}
+.twetter_post p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    word-spacing: 1px;
+    padding-bottom: 15px;
+}
+.twetter_post a{
+    color: #fff;
+}
+.usefull_text h3 {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 25px 0px;
+    letter-spacing: 1px;
+}
+.usefull_link ul{
+    display: block;
+}
+.usefull_link ul li{
+    padding-bottom: 20px;
+}
+.usefull_link ul li a{
+    color: #fff;
+}
+.instagram_text h3{
+    text-transform: uppercase;
+    color: #fff;
+    padding: 25px 0px;
+    letter-spacing: 1px;
+}
+.instagram_text img{
+    width: 100%;
+    height: auto;
+}
+/* ==========end of the footer css ======== */
+
+/* ========== bottom_footer css ======== */
+
+.bottom_footer{
+    background:rgba(9, 26, 46, 1);
+    padding: 25px 0px;
+    text-align: center;
+}
+.f_caption p{
+    color:#fff;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.f_caption p{
+    color:#fff;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.f_link a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.f_link a:hover{
+    color: #ffffff;
+}
+/* ==========end of the _bottom_footer css ======== */
+header nav ul li a:hover,
+header nav ul li a.active{
+    border-bottom: 2px solid #0C0C0D;
+/*	border-left: 1px solid #00aced;*/
+    color:  #ff0033;
+}
+header nav ul li a.active{
+    border:none;
+    color: #0B0B0C;
+	font-weight:600;
+}
+header nav ul li a.active:hover{
+    border-bottom: 2px solid #0C0C0D;
+    color:  #ff0033;;
+}
+/*
+a.logo img{
+    width: 100px;
+    height: 40px;
+}
+*/
+.navigation_area{
+    position: fixed;
+    z-index: 5555555;
+    width: 100%;
+	
+}
+header{
+    width: 100%;
+    top: 0;
+	background:#D8D8D8;
+    left: 0;
+    position: absolute;
+    padding:5px 80px;
+    box-sizing: border-box;
+}
+header>a{
+    text-decoration: none;
+}
+header .logo{
+/*    font-size: 50px;*/
+/*    line-height: 50px;*/
+    color: #fff;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+    z-index: 5;
+}
+header nav{
+    float: right;
+	margin-top: 10px;
+    
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    line-height: 50px;
+    height: 50px;
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #0B0B0C;
+    text-transform: uppercase;
+    display: block;
+    font-size: 16px;
+	font-weight:600;
+	transition: all .4s linear;
+}
+.menu-toggle{
+    font-size: 24px;
+    line-height: 50px;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 950px){
+    header{
+        padding: 0px 0px;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    header nav{
+        overflow: visible;
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 50px;
+        left: 0;
+        transition:all 0.25ms ease-in;
+        -webkit-transition:all 0.25ms ease-in;
+        -moz-transition:all 0.25ms ease-in;
+        -ms-transition:all 0.25ms ease-in;
+        -o-transition:all 0.25ms ease-in;
+}
+header nav ul{
+        display: block;
+        text-align: center;
+}
+header nav ul li a{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+nav.active{
+    display: block;
+}
+
+}
+ 
+
+/* ==================== login page ====================== */
+.slider_menu ul {
+    display: block;
+}
+
+.slider_menu ul li {
+    display: inline-flex;
+}
+
+.slider_menu ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    display:block;
+    position: relative;
+    font-weight: bold;
+}
+.slider_menu ul li span{
+    padding: 0px 10px;
+    color: #fff;
+}
+
+.slider_menu ul li>.last_c {
+    color: #910808;
+  }
+.slider_menu ul li a:after {
+    content: '';
+    width: 30px;
+    height: 3px;
+    background: #910808;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    transition:0.5s ;
+    -webkit-transition:0.5s ;
+    -moz-transition:0.5s ;
+    -ms-transition:0.5s ;
+    -o-transition:0.5s ;
+    visibility: hidden;
+}
+.slider_menu ul li a:hover:after {
+    width: 100%;    
+    visibility: visible;
+
+}
+/* ==================== login page ====================== */
+.login_area{
+    margin-top: 50px;
+}
+.log_icon {
+    text-align: center;
+    margin: 30px 0px;
+}
+.log_icon> span>i{
+    padding: 20px 23px;
+    background: #857463;
+    border-radius: 50%;
+    font-size: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+}
+.main_log{
+    margin: 50px 0px;
+    border: 1px solid #ddd;
+    padding: 15px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.ui.button {
+    border-radius: .0;
+    background: #e64b3b;
+    color:#fff;
+    -webkit-border-radius: .0;
+    -moz-border-radius: .0;
+    -ms-border-radius: .0;
+    -o-border-radius: .0;
+}
+.ui.button:hover{
+    border-radius: .0;
+    background: #e64b3b;
+    color:#fff;
+    -webkit-border-radius: .0;
+    -moz-border-radius: .0;
+    -ms-border-radius: .0;
+    -o-border-radius: .0;
+}
+.social_login{
+    margin: 25px 0px;
+}
+.some_t{
+    display: block;
+    text-align: center;
+    margin-top: 28px;
+}
+.social_login ul {
+    display: block;
+    text-align: center;
+}
+
+.social_login ul li {
+    display: inline-block;
+}
+
+.social_login ul li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.social_login ul li:nth-child(1){
+    background-color: #11201a;
+    padding: 5px;
+}
+.social_login ul li:nth-child(2){
+    background-color: #e64b3b;
+    padding: 5px;
+    margin-left: -4px;  
+}
+.social_login ul li:nth-child(3){
+        background-color: #0d84f3;
+        padding: 5px;   
+    margin-left: -4px;    
+ }
+
+ /* ====================== registation page ===============*/
+ .reg_p p {
+    padding-top: 30px;
+    line-height: 19px;
+    text-transform: none;
+    text-align: justify;
+}
+/* ===================== end regstation page ===================*/
+
+
+/*======== contact page ====================*/
+.con_title{
+    margin-top: 50px;
+}
+.con_log{
+    border-top: 5px solid #00aced;
+}
+.con_icon{
+    text-align: center;
+    margin: 30px 0px;
+}
+.con_icon>span>i{
+    padding: 23px 20px;
+    background: #857463;
+    border-radius: 50%;
+    font-size: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+.email i{
+    font-size: 30px;
+    color: #494949;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.email{
+    text-align: center;
+}
+.icon_e{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.add_title h3{
+        margin-bottom:20px;
+}
+/* ====================== end contact page ================*/
+
+/* ====================== parallaxie ================*/
+.parallaxie{
+    min-height: 360px;
+}
+/* ====================== end parallaxie ================*/
+/* ====================== scrollTop ================*/
+#scrollTop {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    z-index: 99;
+    width: 50px;
+    height: 50px;
+    background: #333;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px #666;
+	opacity:0.7;
+	transition:0.3s;
+	display:none;
+}
+#scrollTop:hover{
+	opacity:1;
+	bottom:2.5%;
+}
+#preloader {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+	z-index:9999999999999999999999;
+}
+#loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+/* ====================== end scrollTop ================*/
